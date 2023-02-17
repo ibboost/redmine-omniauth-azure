@@ -18,3 +18,7 @@
   line-height: 21px;
   font-size: 14px;
 }
+
+.button-decoration:hover {
+  text-decoration: none;
+}
