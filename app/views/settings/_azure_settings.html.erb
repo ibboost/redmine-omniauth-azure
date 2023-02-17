@@ -1,3 +1,4 @@
+<%= stylesheet_link_tag 'plugin_settings', :plugin => 'redmine_omniauth_azure' %>
 <p>
   <label>Client ID</label>
   <%= text_field_tag 'settings[client_id]', @settings['client_id'], class: 'plugin-settings-input' %>
@@ -16,5 +17,5 @@
 </p>
 <p>
   <label>Enable OAuth Authentication</label>
-  <%= check_box_tag "settings[azure_oauth_authentication]", true, @settings['azure_oauth_authentication'] %>
+  <%= check_box_tag "settings[azure_oauth_authentication]", true, @settings['azure_oauth_authentication'], class: 'plugin-settings-checkbox' %>
 </p>

@@ -1,10 +1,8 @@
 .button-login {
   position: relative;
-  text-align: center;
-  left: 42.1%;
   display: block;
-  border-radius: 2px;
-  margin-top: 10px;
+  border-radius: 3px;
+  margin: auto;
   width: 21em;
   height: 33px;
   padding: 0;
@@ -19,8 +17,4 @@
 .button-login-text {
   line-height: 21px;
   font-size: 14px;
-}
-
-.plugin-settings-input {
-  width: 350px
 }

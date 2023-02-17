@@ -6,7 +6,7 @@ Redmine::Plugin.register :redmine_omniauth_azure do
   author 'Gucin Tsui'
   description 'This is a plugin for Redmine registration through Azure AD'
   version '0.0.1'
-  url 'https://github.com/ares/redmine_omniauth_azure'
+  url 'https://github.com/ibboost/redmine_omniauth_azure'
   author_url 'https://github.com/'
 
   settings :default => {
