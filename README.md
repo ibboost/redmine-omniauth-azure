@@ -40,7 +40,7 @@ We will need an Azure Application registration to enable this plugins.
   ```
   https://${your_redmine_url}/oauth2callback_azure
   ```
-* Retrieve these three bits of information to be used to authentication the plugin from Redmine
+* Retrieve these three bits of information to be used to authente the plugin from Redmine
   * Tenant ID: `Directory (tenant) ID` from the `Overview` tab on the application
   * Client ID: `Application (client) ID` from the `Overview` tab on the application
   * Client Secret: `Client Secret` value generated above
